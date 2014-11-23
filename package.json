@@ -1,0 +1,11 @@
+{
+  "name": "twilio-connector",
+  "version": "1.0.0",
+  "description": "Returns XML for Twilio requests",
+  "scripts": {
+    "start": "coffee app.coffee"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ray Gesualdo <rgesualdo@m2mstrategies.com>",
+  "license": "ISC"
+}
