@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "Returns XML for Twilio requests",
   "scripts": {
-    "start": "coffee app.coffee"
+    "start": "coffee app.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ray Gesualdo <rgesualdo@m2mstrategies.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "cson": "^1.6.1",
+    "express": "^4.10.2",
+    "watchr": "^2.4.11",
+    "xml": "^1.0.0"
+  }
 }
