@@ -11,10 +11,13 @@ watchr.watch
     console.log "#{filePath} has been #{changeType}d on " + new Date().toUTCString()
 
 # Start server
-app = express()
+app = module.exports = express()
 
 # Handle getting number and parsing XML
 prepareResponse = (resId) ->
+  # Account for ".xml"
+  resId = resId.replace /\.xml$/, ''
+  
   # Return false if resId doens't exist
   return false if numbers[resId] is undefined
 
