@@ -10,7 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "coffee-script": "^1.8.0",
-    "cson": "^1.6.1",
     "express": "^4.10.2",
     "watchr": "^2.4.11",
     "xml": "^1.0.0"
